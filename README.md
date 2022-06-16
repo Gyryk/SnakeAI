@@ -1,5 +1,5 @@
 # SnakeAI
-The classic game of snake, but it is controlled by a Deep RL algorithm
+The classic game of snake, but it is controlled by a Deep RL algorithm \n
 Yeah that is pretty much what it is...
 This algorithm is almost definitely better than any human player, but I still want you to try and beat it.
 
