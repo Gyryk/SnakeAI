@@ -1,7 +1,6 @@
 # SnakeAI
 ## The classic game of snake, but it is controlled by a Deep RL algorithm
 
-Yeah that is pretty much what it is...
-This algorithm is almost definitely better than any human player, but I still want you to try and beat it.
+The algorithm is currently only learning for ~500 runs due to a hidden layer constraint and an error in the algorithm that causes the snake to loop and collide into itself. To solve that, I would need to form a map of all the blocks in the play-area and feed that as input layer states instead of the relative location of walls and apples. This method is more thorough and accurate but also resource intensive because of which I have not implemented it.
 
-> I am very inexperienced with Q Learning and AI so if you find any errors please lmk thanks ^-^
+> This project has been for learning Deep Q Learning and AI through practical exploration
