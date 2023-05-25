@@ -23,7 +23,7 @@
 - The same lack of data also limits the capabilities of the AI
 
 ### Results
-!
+![Image of AI score graph after 300 runs](assets/300games.png)
 
 ### Future updates
 #### The algorithm is currently only learning for ~500 runs due to a hidden layer constraint and an error in the algorithm that causes the snake to loop and collide into itself. 
