@@ -26,8 +26,12 @@
 ![Image of AI score graph after 300 runs](assets/300 games.png)
 #### As you can see in the image, the AI takes a 128 run exploration period to completely understand the mechanics of the game and its objective.
 #### Once the AI has learnt how to move efficiently and that it needs to eat apples and avoid hitting itself, it starts using the mutations of the Neural Network to maximise its Q value (and subsequently the score)
+~[Image of AI score graph after 600 runs](assets/600 games.png)
+#### However, as the second graph has shown the AI's improvements have a limit and the mutations stop giving any tangible improvements to the score after a few hundred runs.
+#### The reason for the plateauing of score is likely the algorithm written not being advanced enough to go any further.
+#### One of the biggest issues the AI encounters is looping and moving in a fixed circle forever instead of getting bigger after a certain point. This has been counteracted somewhat with a time runout penalty but there might be more sophisticated fixes to be found
 
-### Future updates
+### Potential Future updates
 #### The algorithm is currently only learning for ~500 runs due to a hidden layer constraint and an error in the algorithm that causes the snake to loop and collide into itself. 
 #### To solve that, I would need to form a map of all the blocks in the play-area and feed that as input layer states instead of the relative location of walls and apples. 
 #### This method is more thorough and accurate but also resource intensive because of which I have not yet implemented it.
