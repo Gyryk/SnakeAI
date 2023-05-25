@@ -40,4 +40,4 @@
 #### This method is more thorough and accurate but also resource intensive because of which I have not yet implemented it.
 
 ## How to run the AI Model
-Step 1: Download Python 3.9(https://www.python.org/downloads/release/python-3916/)
+Step 1: Download [Python 3.9](https://www.python.org/downloads/release/python-3916/)
