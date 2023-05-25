@@ -40,10 +40,11 @@
 #### This method is more thorough and accurate but also resource intensive because of which I have not yet implemented it.
 
 ## How to run the AI Model
-Step 1: Download [Python 3.9](https://www.python.org/downloads/release/python-3916/) and make sure it is installed and configured properly \n
-Step 2: Open a Terminal (Command Prompt/Windows Powershell) and type in the following command:
-- pip install torch torchvision ipython matplotlib pygame numpy
-Step 3: Download the code from the GitHub repository
-Step 4: Right click in the File Explorer window with the code open and select open Terminal here
-Step 5: Type and enter the following command:
-- python agent.py
+- Step 1: Download [Python 3.9](https://www.python.org/downloads/release/python-3916/) and make sure it is installed and configured properly
+- Step 2: Open a Terminal (Command Prompt/Windows Powershell) and type in the following command:
+  - pip install torch torchvision ipython matplotlib pygame numpy
+- Step 3: Download the code from the GitHub repository
+- Step 4: Right click in the File Explorer window with the code open and select open Terminal here
+- Step 5: Type and enter the following command:
+  - python agent.py
+- Step 6: If running a saved model, there is nothing more to do; but if you are on a brand new model then you need to give it a few minutes to learn the game
