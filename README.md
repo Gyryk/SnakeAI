@@ -15,7 +15,10 @@
 #### To quantify the AI learning and progressing, I have created a basic graph using the MatPlotLib and IPython libraries. These help me show all the previous runs alongside the one that is currently being played.
 - In order to account for the randomness and fluctuations in score, I have added 2 additional data points to the graph alongside the scores.
   - Mean score 
-  - Running average of last 16 runs, since mean is offset by failures in exploration stage. 
+  - Running average of last 16 runs, since mean is offset by failures in exploration stage.
+#### The algorithm for the AI is based on Computational Darwinism, where a system of reward and punishment makes it so that the Reinforcement Learning based Neural Network creates a survival-of-the-fittest type of scenario.
+- Due to this approach, no sample data of humans playing the game has to be input for the model
+- The same lack of data also limits the capabilities of the AI
 
 ### Results
 !
