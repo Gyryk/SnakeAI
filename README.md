@@ -1,6 +1,8 @@
 # SnakeAI
 ## The classic game of snake, but it is controlled by a Deep RL algorithm
 
+
+
 ### Objective
 > This project has mainly been for learning about Deep Q Learning, Artificial Neural Networks, and Artificial Intelligence through practical exploration
 - Teaching AI how to play a videogame, such as 'Snake', was a double edged sword for me. 
