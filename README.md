@@ -23,6 +23,7 @@
 - The same lack of data also limits the capabilities of the AI
 
 ### Results
+> Updated results might be attached at the end
 ![Image of AI score graph after 300 runs](assets/300games.png)
 #### As you can see in the image, the AI takes a 128 run exploration period to completely understand the mechanics of the game and its objective.
 #### Once the AI has learnt how to move efficiently and that it needs to eat apples and avoid hitting itself, it starts using the mutations of the Neural Network to maximise its Q value (and subsequently the score)
