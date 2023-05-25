@@ -23,10 +23,10 @@
 - The same lack of data also limits the capabilities of the AI
 
 ### Results
-![Image of AI score graph after 300 runs](assets/300 games.png)
+![Image of AI score graph after 300 runs](assets/300games.png)
 #### As you can see in the image, the AI takes a 128 run exploration period to completely understand the mechanics of the game and its objective.
 #### Once the AI has learnt how to move efficiently and that it needs to eat apples and avoid hitting itself, it starts using the mutations of the Neural Network to maximise its Q value (and subsequently the score)
-![Image of AI score graph after 600 runs](assets/600 games.png)
+![Image of AI score graph after 600 runs](assets/600games.png)
 #### However, as the second graph has shown the AI's improvements have a limit and the mutations stop giving any tangible improvements to the score after a few hundred runs.
 #### The reason for the plateauing of score is likely the algorithm written not being advanced enough to go any further.
 #### One of the biggest issues the AI encounters is looping and moving in a fixed circle forever instead of getting bigger after a certain point. This has been counteracted somewhat with a time runout penalty but there might be more sophisticated fixes to be found
