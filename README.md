@@ -1,7 +1,7 @@
 # SnakeAI
 ## The classic game of snake, but it is controlled by a Deep RL algorithm
 
-![gif of ai playing the game]assets/snakeGame.gif
+![GIF of AI playing the game](assets/snakeGame.gif)
 
 ### Objective
 > This project has mainly been for learning about Deep Q Learning, Artificial Neural Networks, and Artificial Intelligence through practical exploration
