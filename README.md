@@ -34,7 +34,7 @@
 #### One of the biggest issues the AI encounters is looping and moving in a fixed circle forever instead of getting bigger after a certain point. This has been counteracted somewhat with a time runout penalty but there might be more sophisticated fixes to be found
 
 ### Potential Future updates
-> I am probably currently working on implementing these, but would still appreciate any input on a good way to do it
+> I am probably currently working on implementing these, but would still appreciate any input on a good way to do it; or a different idea
 #### The algorithm is currently only learning for ~500 runs due to a hidden layer constraint and an error in the algorithm that causes the snake to loop and collide into itself. 
 #### To solve that, I would need to form a map of all the blocks in the play-area and feed that as input layer states instead of the relative location of walls and apples. 
 #### This method is more thorough and accurate but also resource intensive because of which I have not yet implemented it.
